@@ -30,7 +30,7 @@ func main() {
 		Args:             noArgs,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			if Version {
-				fmt.Println("show version 1.0.0")
+				fmt.Println("show version 1.1.0")
 				return nil
 			}
 			fmt.Println("RunE")
